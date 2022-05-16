@@ -1,0 +1,488 @@
+
+@media screen and (min-width: 100px)
+{
+    /* @font-face { font-family: Krabby Patty;
+                 src: url('SpongeBoB Painting.ttf'); }  */
+
+ body {
+    margin: 0;
+    background-color: rgb(196, 167, 217);
+    font-family: Krabby Patty;
+    font-size: 20px;
+    display: grid;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(-45deg, rgb(209, 191, 222), rgb(214, 191, 231),rgb(210, 192, 224),rgb(193, 178, 205));
+      background-size: 400% 400%;
+      animation: whyHeOurple 8s linear infinite;
+    /* 
+display: grid;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(-45deg, rgb(235, 56, 56), rgb(75, 207, 255), rgb(255, 31, 128), rgb(0, 255, 89), rgb(150, 21, 255), rgb(255, 255, 255), rgb(0, 0, 0), rgb(237, 255, 75), rgb(170, 118, 254), rgb(255, 141, 221));
+      background-size: 400% 400%;
+      animation: gradient 0.1s linear infinite; */
+      
+ }
+ @keyframes whyHeOurple  {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	} }
+ /* @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	} } */
+}
+
+.footertest {
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    padding-left: 5vw;
+
+}
+
+.caroImage {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right {
+float: right;
+margin-right: 10%;
+    
+}
+/* .left {
+    overflow: hidden;
+    display: block;
+    position: fixed;
+    max-width: 50%;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    background: rgb(133, 133, 133);
+    height: 100%;
+} */
+
+.advertisment {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.nothingsImpossibleMarioOnlyImprobable {
+    display: block;
+text-align: center;
+}
+.ethanBrass {
+    font-size: 70px;
+    animation: opacitySmooth 2s;
+    position: relative;
+}
+.leftRightOverhead {
+    display: flex;
+    margin: 0 auto;
+}
+
+/* .iCanMakeOrangeRhymeWithBananna {
+    borrrrnana
+} */
+
+.left {
+    text-align: left;
+    padding-right: 10%;
+}
+.bottom {
+  padding-left: 6cm;
+  padding-right: 6cm;
+  text-align: center;
+  padding-bottom: 10cm;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Open Sans", sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #287D7D;
+}
+img {
+    max-width: 100%;
+    border-radius: 1rem 1rem 1rem 1rem;
+    padding: 0.5rem
+}
+h1 {
+    border: 2px black;
+}
+
+
+.halves article {
+    width: 48%;
+}
+.portfolioAdvertisement{
+    border: 1px solid black;
+    color: whitesmoke;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    background: #7f3aa1;
+        color: black;
+    padding: 10px; 
+    margin-top: 0px; 
+}
+    
+    .links li{
+        padding: 8px;
+        position: relative;
+    }
+    
+    .links ul {
+        border: 1px solid black;
+        display: none;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #6f3575;
+    }
+
+.links ul ul{
+    border: 1px solid black;
+    display: none;
+left: 0;
+position: absolute;
+top: 100%;
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 200px;
+}
+
+.links ul ul ul{
+    border: 1px solid black;
+    display: none;
+left: 0;
+position: absolute;
+top: 100%;
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 200px;
+}
+
+.sub-dropdown li:hover{
+    background: linear-gradient(to right, #7f2da8, #7f2da8);
+}
+    
+    .links li:hover > ul {
+        display: block;
+    }
+    a:link {
+        text-decoration: none;
+        color: white;
+      }
+      
+      a:visited {
+        text-decoration: none;
+        color: white;
+      
+      }
+      
+      a:hover {
+        text-decoration: underline;
+        color: white;
+      
+      }
+      
+      a:active {
+        text-decoration: underline;
+        color: white;
+      
+      }
+    * {
+        box-sizing: border-box;
+    }
+    h2{
+        text-decoration: none;
+    }
+    
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100px, -350px);
+    font-size: 96px;
+  }
+
+  .alotofhyperlinks {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+  /* tablet */
+@media only screen and (max-width: 992px)
+{        body { 
+    width: 102vw; }
+
+    .columns {
+        width: 102vw;
+    }
+
+    .fourth article { width: 100%;}
+
+    article { width: 102vw;}
+
+    h2 { font-size:  16px;}
+    .heroimage { width: 100%;
+    padding: 0px;
+padding-left: 0px;}
+
+img {
+    max-height: 100%;
+
+}}
+
+    /* mobile */
+    @media only screen and (max-width: 480px) {
+        body {
+        width: 102vw; }
+
+        .columns {
+            width: 102vw;
+        }
+
+        .fourth article { width: 100%;}
+
+        article { width: 102vw;}
+
+        h2 { font-size:  20px;}
+
+        p { font-size: 20px;}
+        a {font: 20px;}
+        .heroimage { width: 100%;
+        padding: 1px;
+        padding-left: 0px;
+    }
+.links ul {
+    left: -32px;
+}
+
+    img {
+        max-height: 100%;
+        border-radius: 0rem, 0rem, 0rem, 0rem,;
+    }
+    body {
+        background-image: url("images/robert.gif"
+        )
+    }
+} 
+
+.carousel {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel .carouselImg,
+  .carousel .carouselImgH {
+    display: none;
+  }
+  
+  .carousel .carouselImg img {
+   
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel .carouselImgV {
+    display: block;
+    animation: opacity 0.5s;
+  }
+  
+  .carousel .carouselA {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+  
+  }
+  
+  .carousel .carouselA button {
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .carousel .carouselA button {
+    margin: 0 20px;
+  }
+  
+  @keyframes opacity {
+    0% {
+      opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+        transform: opacity linear;
+      }
+    50% {
+        opacity: 0.50;
+        transform: opacity linear;
+      }
+      75% {
+        opacity: 0.75;
+        transform: opacity linear;
+      }
+    100% {
+      opacity: 1;
+      transform: opacity linear;
+    }
+  }
+  
+  @keyframes opacitySmooth {
+    0% {
+        opacity: 0; 
+      }
+
+      15% {
+          opacity: 0.15;
+          transform: opacity linear; 
+      }
+      25% {
+          opacity: 0.25;
+          transform: opacity linear; 
+        }
+        35% {
+            opacity: 0.35;
+            transform: opacity linear;
+          }
+      50% {
+          opacity: 0.50;
+          transform: opacity linear; 
+        }
+        65% {
+            opacity: 0.65;
+            transform: opacity linear;
+        }
+        75% {
+          opacity: 0.75;
+          transform: opacity linear;
+        }
+      100% {
+        opacity: 1;
+        transform: opacity linear;
+      }
+  }
+
+  .cabinetMan {
+      display: flex;
+flex-direction: column;
+
+  }
+
+  .aboutHeader {
+    display: block;
+text-align: center;
+  }
+
+  .lenovoMouseWheel {
+      font-size: 56px;
+  }
+
+.aboutMeTextOverhead {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.aboutImage {
+  max-width: 75%;
+  
+}
+
+  .isKDsRealFullNameKillDeathRatio {
+    width: 75%;
+    float: right;
+  }
+.iReallyWannaHugAGoodra {
+  background-color: #b697b8;
+  background-image: url("images/juanita.png");
+  font-size: 32px;
+}
+
+.portfolioCard {
+  text-align: center;
+  width: 30%;
+  border: 1px solid black;
+    border-radius: 2px 0px 2px black;
+    color: whitesmoke;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+
+.partyRockIsInTheHouseTonight {
+  display: flex;
+  justify-content: space-evenly;
+  border: #7f2da8;
+  border-radius: 20px;
+}
+
+.resume {
+  font-size: 24px;
+}
+
+strong {
+  font-size: 32px;
+}
+
+.nameTest {
+  text-align: center;
+  font-size: 32px;
+}
+
+.footerClass ul {
+  list-style-type: none;
+}
+.footerClass li {
+  padding: 10px;
+}
