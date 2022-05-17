@@ -53,7 +53,7 @@ display: grid;
     flex-direction:row;
     position: relative;
     padding-left: 5vw;
-
+background-color: #b697b8;
 }
 
 .caroImage {
@@ -430,9 +430,14 @@ text-align: center;
 .aboutMeTextOverhead {
   display: flex;
   flex-direction: column;
+  padding-left: 5cm;
+  padding-right: 5cm;
 }
 
-
+.aboutMeText1 {
+  padding-left: 6cm;
+  padding-right: 6cm;
+}
 
 .aboutImage {
   max-width: 75%;
