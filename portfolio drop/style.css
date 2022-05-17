@@ -483,6 +483,19 @@ strong {
 .nameTest {
   text-align: center;
   font-size: 32px;
+  padding-left: 5cm;
+  padding-right: 5cm;
+}
+
+.interactiveTest {
+  text-align: center;
+  font-size: 32px;
+  padding-left: 5cm;
+  padding-right: 5cm;
+}
+
+.footertest {
+  justify-content: space-evenly;
 }
 
 .footerClass ul {
