@@ -480,6 +480,13 @@ strong {
   font-size: 32px;
 }
 
+.interactiveImg {
+  max-width: 75%;
+}
+.interactiveImg2 {
+  max-width: 20%;
+}
+
 .nameTest {
   text-align: center;
   font-size: 32px;
